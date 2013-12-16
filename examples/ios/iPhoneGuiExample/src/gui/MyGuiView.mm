@@ -14,7 +14,7 @@
 
 // called automatically after the view is loaded, can be treated like the constructor or setup() of this class
 -(void)viewDidLoad {
-	myApp = (ofApp*)ofGetAppPtr();
+	myApp = (testApp*)ofGetAppPtr();
 }
 
 //----------------------------------------------------------------

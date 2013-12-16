@@ -8,7 +8,7 @@
 
 #import "AlertViewDelegate.h"
 #import "ofxiOSExternalDisplay.h"
-#import "ofApp.h"
+#import "testApp.h"
 
 @implementation AlertViewDelegate
 
@@ -30,7 +30,7 @@
         ofxiOSExternalDisplay::displayOnExternalScreen(displayModes[i]);
     }
     
-    ((ofApp *)ofGetAppPtr())->popupDismissed();
+    ((testApp *)ofGetAppPtr())->popupDismissed();
 }
 
 @end

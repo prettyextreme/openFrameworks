@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-#include "ofApp.h"
+#include "testApp.h"
 
 @interface MyGuiView : UIViewController {
 	IBOutlet UILabel *displayText;
 	
-	ofApp *myApp;		// points to our instance of ofApp
+	testApp *myApp;		// points to our instance of testApp
 }
 
 -(void)setStatusString:(NSString *)trackStr;
